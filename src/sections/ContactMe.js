@@ -1,7 +1,7 @@
 function ContactMe() {
   return (
     <>
-      <div className="border">
+      <div className="">
         <h2>Contact Me</h2>
         <p>
           This is where my social media icons go and my other handles to contact

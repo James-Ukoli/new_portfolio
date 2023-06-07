@@ -5,7 +5,7 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <>
-      <div className="border">
+      <div className="">
         <h1 className="center">The James Ukoli</h1>
         <div className="row picAndQuote">
           <img

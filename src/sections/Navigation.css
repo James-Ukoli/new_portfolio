@@ -1,0 +1,13 @@
+.sidebar {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px;
+    transition: top 0.3s ease; 
+  }
+
+
+.no-bullets {
+list-style: none;
+}
