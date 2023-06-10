@@ -15,11 +15,12 @@ function HomePage() {
           />
 
           <p className="center">
-            "Funny Quote goes here next to profile picture (row)"
+            "I gotta stay on the flow, if I want to grow"
           </p>
+          <p className="center">MORE UPDATES COMING TO THE PAGE - 6/2023</p>
         </div>
         <h6 className="center">
-          Full-Stack Software Developer 👨🏽‍💻 | Adobe Creative Designer 👨🏾‍🎨
+          Full-Stack Software Developer👨🏽‍💻 | Adobe Creative Designer👨🏾‍🎨
         </h6>
       </div>
     </>

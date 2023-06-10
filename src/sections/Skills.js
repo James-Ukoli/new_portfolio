@@ -1,34 +1,47 @@
 import React from "react";
+import { FaHtml5, FaCss3Alt, FaPython, FaJava, FaReact } from "react-icons/fa";
+import "./Skills.css";
+
+const iconStyle1 = { color: "red" };
+const iconStyle2 = { color: "yellow" };
+const iconStyle3 = { color: "cyan" };
+const iconStyle4 = { color: "orange" };
+const iconStyle5 = { color: "lightgreen" };
+const iconSize = 36;
 
 function Skills() {
   return (
     <>
       <div className="">
-        <h2>Skills</h2>
-        <p>
+        <h2 className="center">Skills</h2>
+        {/* <p>
           I am going to use the bootstrap carousel effect to display all my
-          skills to the user
-        </p>
-        <p>I will place my strengths and preferneces here</p>
-        <p>
-          Software engineering is a dynamic and ever-evolving field that fuels
-          the backbone of our digital world. It is a discipline where creativity
-          meets logic, and innovation blends with problem-solving. Software
-          engineers are the architects of the virtual realm, crafting intricate
-          systems and applications that streamline processes, enhance user
-          experiences, and push the boundaries of technology. With lines of code
-          as their brush and algorithms as their palette, they navigate through
-          the complexities of software development, meticulously designing,
-          testing, and iterating to deliver robust and reliable solutions.
-          Collaboration and teamwork lie at the heart of software engineering,
-          as engineers collaborate with designers, product managers, and
-          stakeholders to bring ideas to life. Adapting to emerging technologies
-          and frameworks, software engineers continually sharpen their skills
-          and embrace new challenges, driven by the desire to build efficient,
-          scalable, and secure software solutions. In this fast-paced world,
-          software engineering remains an indispensable force, revolutionizing
-          industries and shaping the digital landscape that connects us all.
-        </p>
+          skills to the user (Update)
+        </p> */}
+        {/* <h4 classname="center">Software Development</h4> */}
+        <div className="list-container">
+          <ul className="no-bullets ">
+            <li>
+              <FaHtml5 style={iconStyle4} size={iconSize} /> HTML5
+            </li>
+            <li>
+              <FaCss3Alt style={iconStyle3} size={iconSize} />
+              CSS
+            </li>
+            <li>
+              <FaJava style={iconStyle1} size={iconSize} />
+              Javascript
+            </li>
+            <li>
+              <FaPython style={iconStyle2} size={iconSize} />
+              Python
+            </li>
+            <li>
+              <FaReact style={iconStyle5} size={iconSize} />
+              React
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

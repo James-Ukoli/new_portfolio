@@ -1,11 +1,36 @@
+import React from "react";
+import { FaChess, FaRobot, FaYoutube } from "react-icons/fa";
+
+const iconSize = 36;
+const iconColor1 = { color: "red" };
+const iconColor2 = { color: "gray" };
+const iconColor3 = { color: "white" };
+
 function Hobbies() {
   return (
     <div className="">
-      <h2>Hobbies</h2>
+      <h2 className="center">Hobbies</h2>
       <p>
-        I am also going to use the bootstrap carousel effect to display all my
-        hobbies to the user
+        During my free time I love to play chess online and on the street,
+        basketball, boxing and work on robotics and electrical engineering
+        projects (entry-level)
       </p>
+      <div className="list-container">
+        <ul className="no-bullets ">
+          <li>
+            <FaChess style={iconColor3} size={iconSize} />
+            Chess
+          </li>
+          <li>
+            <FaRobot style={iconColor2} size={iconSize} />
+            Robotics
+          </li>
+          <li>
+            <FaYoutube style={iconColor1} size={iconSize} />
+            YouTube
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

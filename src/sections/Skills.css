@@ -1,0 +1,20 @@
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .list-container ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    margin-right: 10px; /* Optional: Add spacing between list items */
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
