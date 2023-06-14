@@ -1,7 +1,7 @@
 function ContactMe() {
   return (
     <>
-      <div className="center">
+      <div id="contactme" className="center">
         <h2 className="center">Contact Me</h2>
         <ul>
           <li>

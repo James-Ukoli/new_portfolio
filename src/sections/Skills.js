@@ -19,7 +19,7 @@ function Skills() {
           skills to the user (Update)
         </p> */}
         {/* <h4 classname="center">Software Development</h4> */}
-        <div className="list-container">
+        <div id="skills" className="list-container">
           <ul className="no-bullets ">
             <li>
               <FaHtml5 style={iconStyle4} size={iconSize} /> HTML5

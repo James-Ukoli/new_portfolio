@@ -39,3 +39,8 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add some space to the bottom of the page to prevent content from being overlapped by the navigation bar */
+.content {
+  padding-bottom: 40px;
+}

@@ -4,35 +4,24 @@ import "./Navigation.css"; // Import the CSS file for styling
 
 const Navigation = () => {
   return (
-    <nav className="sidebar col-1">
-      <ul className="no-bullets">
-        <li>
-          <a href="#homepage">
-            {" "}
-            <FaHome />
-          </a>
-        </li>
-        <li>
-          <a href="#skills">
-            <FaTools />
-          </a>
-        </li>
-        <li>
-          <a href="#aboutme">
-            <FaChild />
-          </a>
-        </li>
-        <li>
-          <a href="#hobbies">
-            <FaChess />
-          </a>
-        </li>
-        <li>
-          <a href="#contactme">
-            <FaEnvelope />
-          </a>
-        </li>
-      </ul>
+    <nav className="sidebar">
+      <a href="#homepage">
+        <FaHome />
+      </a>
+      <a href="#skills">
+        <FaTools />
+      </a>
+      <a href="#aboutme">
+        <FaChild />
+      </a>
+
+      <a href="#hobbies">
+        <FaChess />
+      </a>
+
+      <a href="#contactme">
+        <FaEnvelope />
+      </a>
     </nav>
   );
 };

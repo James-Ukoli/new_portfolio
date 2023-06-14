@@ -15,7 +15,7 @@ function Hobbies() {
         basketball, boxing and work on robotics and electrical engineering
         projects (entry-level)
       </p>
-      <div className="list-container">
+      <div id="hobbies" className="list-container">
         <ul className="no-bullets ">
           <li>
             <FaChess style={iconColor3} size={iconSize} />

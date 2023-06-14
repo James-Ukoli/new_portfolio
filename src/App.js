@@ -9,12 +9,14 @@ import Contact from "../src/sections/ContactMe";
 function App() {
   return (
     <>
-      <Navigation />
-      <HomePage />
-      <AboutMe />
-      <Skills />
-      <Hobbies />
-      <Contact />
+      <div className="content">
+        <Navigation />
+        <HomePage />
+        <AboutMe />
+        <Skills />
+        <Hobbies />
+        <Contact />
+      </div>
     </>
   );
 }

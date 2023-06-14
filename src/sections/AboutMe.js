@@ -1,9 +1,12 @@
+import React from "react";
+import "./AboutMe.css"; // iMPORT Css files
+
 function AboutMe() {
   return (
     <>
-      <div className="">
+      <div id="aboutme" className="">
         <h2 className="center">About Me</h2>
-        <p>
+        <p classname="paragraph">
           Hello there! I'm The James Ukoli, a creative soul hailing from the
           vibrant city of Richardson, Texas! Whether it's creating software
           applications, cinematic films, or designing, I find satisfaction and
