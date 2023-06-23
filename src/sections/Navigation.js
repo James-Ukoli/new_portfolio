@@ -4,7 +4,7 @@ import "./Navigation.css"; // Import the CSS file for styling
 
 const Navigation = () => {
   return (
-    <nav className="sidebar">
+    <nav className="navbar">
       <a href="#homepage">
         <FaHome />
       </a>

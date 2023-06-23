@@ -1,4 +1,25 @@
-.paragraph {
-    background-color: red;
-    padding: 100px;
+.robotic-text {
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    margin: 30px;
+  }
+
+.robotic-paragraph {
+    font-family: "Arial", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #00ff00;
+  animation: glitch 2s infinite;
+}
+
+/* .cyan {
+    color: ;
+} */
+
+.black {
+   
+    text-shadow: cyan  30px;
 }

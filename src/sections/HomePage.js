@@ -5,7 +5,7 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <>
-      <div id="homepage" className="">
+      <div id="homepage" className="robotic-text">
         <h1 className="center">The James Ukoli</h1>
         <div className="row picAndQuote">
           <img
@@ -13,14 +13,10 @@ function HomePage() {
             alt={profilePic}
             className="circle-image profilepic"
           />
-
-          <p className="center">
-            "I gotta stay on the flow, if I want to grow"
-          </p>
-          <p className="center">MORE UPDATES COMING TO THE PAGE - 6/2023</p>
         </div>
-        <h6 className="center">
-          Full-Stack Software Developer👨🏽‍💻 | Adobe Creative Designer👨🏾‍🎨
+        <br />
+        <h6 className="center h6font">
+          Software Developer👨🏽‍💻 | Adobe Creative Designer
         </h6>
       </div>
     </>

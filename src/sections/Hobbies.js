@@ -10,7 +10,7 @@ function Hobbies() {
   return (
     <div className="">
       <h2 className="center">Hobbies</h2>
-      <p>
+      <p className="paragraph ">
         During my free time I love to play chess online and on the street,
         basketball, boxing and work on robotics and electrical engineering
         projects (entry-level)

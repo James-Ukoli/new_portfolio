@@ -5,8 +5,10 @@ function AboutMe() {
   return (
     <>
       <div id="aboutme" className="">
-        <h2 className="center">About Me</h2>
-        <p classname="paragraph">
+        <h2 className="center robotic-text ">About Me</h2>
+        <h5 className="center robotic-text black">The Black Jaguar</h5>
+
+        <p className="robotic-paragraph">
           Hello there! I'm The James Ukoli, a creative soul hailing from the
           vibrant city of Richardson, Texas! Whether it's creating software
           applications, cinematic films, or designing, I find satisfaction and
