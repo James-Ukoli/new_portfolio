@@ -1,25 +1,32 @@
-.robotic-text {
+.blue-robotic-text {
     font-family: "Roboto Mono", monospace;
+    color: cyan;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-shadow: 0 0 3px cyan;
     margin: 30px;
   }
 
-.robotic-paragraph {
-    font-family: "Arial", sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.05em;
+.white-robotic-text {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  text-shadow: 0 0 5px #00ff00;
-  animation: glitch 2s infinite;
+  text-shadow: 0 0 3px cyan;
+  margin: 50px;
 }
 
-/* .cyan {
-    color: ;
-} */
-
 .black {
-   
     text-shadow: cyan  30px;
+}
+
+.paragraph {
+  font-size: small;
+}
+
+@media (max-width: 480px) {
+  /* CSS rules for screens 480px or smaller */
+  /* Add your styles here */
+
+  
 }

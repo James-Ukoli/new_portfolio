@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <div id="homepage" className="robotic-text">
-        <h1 className="center">The James Ukoli</h1>
+        <h1 className="center aqua">The James Ukoli</h1>
         <div className="row picAndQuote">
           <img
             src={profilePic}
@@ -14,10 +14,9 @@ function HomePage() {
             className="circle-image profilepic"
           />
         </div>
-        <br />
-        <h6 className="center h6font">
-          Software Developer👨🏽‍💻 | Adobe Creative Designer
-        </h6>
+
+        <h6 className="center h6 ">Software Developer👨🏽‍💻</h6>
+        <h6 className="center h6">Adobe Creative Designer</h6>
       </div>
     </>
   );

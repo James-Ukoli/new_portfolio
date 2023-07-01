@@ -13,32 +13,33 @@ function Skills() {
   return (
     <>
       <div className="">
-        <h2 className="center">Skills</h2>
+        <h2 className="center blue-robotic-text">Skills</h2>
         {/* <p>
           I am going to use the bootstrap carousel effect to display all my
           skills to the user (Update)
         </p> */}
         {/* <h4 classname="center">Software Development</h4> */}
         <div id="skills" className="list-container">
-          <ul className="no-bullets ">
-            <li>
-              <FaHtml5 style={iconStyle4} size={iconSize} /> HTML5
+          <ul className="no-bullets white-robotic-text">
+            <li className="iconAndText">
+              <FaHtml5 style={iconStyle4} size={iconSize} />
+              <div>HTML5</div>
             </li>
-            <li>
+            <li className="iconAndText">
               <FaCss3Alt style={iconStyle3} size={iconSize} />
-              CSS
+              <div>CSS</div>
             </li>
-            <li>
+            <li className="iconAndText">
               <FaJava style={iconStyle1} size={iconSize} />
-              Javascript
+              <div>Javascript</div>
             </li>
-            <li>
+            <li className="iconAndText">
               <FaPython style={iconStyle2} size={iconSize} />
-              Python
+              <div>Python</div>
             </li>
-            <li>
+            <li className="iconAndText">
               <FaReact style={iconStyle5} size={iconSize} />
-              React
+              <div>React</div>
             </li>
           </ul>
         </div>

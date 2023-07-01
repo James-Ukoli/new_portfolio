@@ -9,14 +9,14 @@ const iconColor3 = { color: "white" };
 function Hobbies() {
   return (
     <div className="">
-      <h2 className="center">Hobbies</h2>
-      <p className="paragraph ">
+      <h2 className="center blue-robotic-text">Hobbies</h2>
+      <p className="paragraph white-robotic-text">
         During my free time I love to play chess online and on the street,
         basketball, boxing and work on robotics and electrical engineering
         projects (entry-level)
       </p>
       <div id="hobbies" className="list-container">
-        <ul className="no-bullets ">
+        <ul className="no-bullets white-robotic-text">
           <li>
             <FaChess style={iconColor3} size={iconSize} />
             Chess

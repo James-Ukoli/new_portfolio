@@ -16,5 +16,29 @@
 
   .center {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .iconAndText {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .blue-robotic-text {
+    font-family: "Roboto Mono", monospace;
+    color: cyan;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    margin: 30px;
+  }
+
+  .white-robotic-text {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+
   }

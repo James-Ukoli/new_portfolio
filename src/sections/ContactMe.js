@@ -2,9 +2,9 @@ function ContactMe() {
   return (
     <>
       <div id="contactme">
-        <h2 className="center">Contact Me</h2>
-        <div className="center contactlinks">
-          <ul>
+        <h2 className="center blue-robotic-text">Contact Me</h2>
+        <div className="center contactlinks ">
+          <ul className="white-robotic-text">
             <li>
               <a href="mailto:thejamesukoli@gmail.com">Email me! :) </a>
             </li>

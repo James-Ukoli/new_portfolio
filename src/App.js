@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./sections/Navigation";
 import HomePage from "./sections/HomePage";
 import Skills from "./sections/Skills";
