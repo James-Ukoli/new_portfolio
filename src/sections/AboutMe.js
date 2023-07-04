@@ -1,21 +1,21 @@
 import React from "react";
-import YouTube from "react-youtube";
+// import YouTube from "react-youtube";
 import { Carousel } from "react-bootstrap";
 import "./AboutMe.css"; // iMPORT Css files
 
-const videoId = "0U6siM3gj-s";
-const options = {
-  width: "560",
-  height: "315",
-  // Add other options as needed
-};
+// const videoId = "0U6siM3gj-s";
+// const options = {
+//   width: "560",
+//   height: "315",
+//   // Add other options as needed
+// };
 
 function AboutMe() {
   return (
     <>
       <div id="aboutme" className="">
-        <h2 className="center blue-robotic-text">About Me</h2>
-        <Carousel interval={5000}>
+        <h2 className="center blue-robotic-text element1">About Me</h2>
+        <Carousel interval={5000} data-interval="false">
           <Carousel.Item>
             <div className="white-robotic-text paragraph uppity">
               Hello there! I'm The James Ukoli, aka the Black Jaguar&#129409;! I

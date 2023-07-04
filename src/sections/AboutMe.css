@@ -30,3 +30,17 @@
 
   
 }
+
+/* #aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+.element1 {
+  margin-bottom: 20px;
+}
+
+.element2 {
+  margin-top: 20px;
+}

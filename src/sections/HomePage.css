@@ -40,6 +40,58 @@ margin-top: 10px;
 }
 
 
+/* @keyframes borderAnimation {
+  0% {
+    border-color: #ff0000;
+  }
+  25% {
+    border-color: #00ff00;
+  }
+  50% {
+    border-color: #0000ff;
+  }
+  75% {
+    border-color: #ff00ff;
+  }
+  100% {
+    border-color: #ff0000;
+  }
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  animation: borderAnimation 5s linear infinite;
+}
+
+.image-container img {
+  display: block;
+  border-radius: 6px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media (max-width: 480px) {
   /* CSS rules for screens 480px or smaller */
   /* Add your styles here */

@@ -7,7 +7,7 @@ function HomePage() {
     <>
       <div id="homepage" className="robotic-text">
         <h1 className="center aqua">The James Ukoli</h1>
-        <div className="row picAndQuote">
+        <div className="row picAndQuote image-container">
           <img
             src={profilePic}
             alt={profilePic}

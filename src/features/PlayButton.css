@@ -1,0 +1,12 @@
+#play-button {
+    position: fixed;
+    top: 0px;
+    left: 40px;
+    z-index: 9999;
+  
+    /* background-color:cyan;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    cursor: pointer; */
+  }
