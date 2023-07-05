@@ -15,7 +15,6 @@ function App() {
     <>
       <div className="content">
         <PlayButton />
-
         <Navigation />
         <HomePage />
         <AboutMe />
