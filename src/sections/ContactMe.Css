@@ -6,7 +6,6 @@
  div ul {
     display: flex;
     justify-content: space-around;
-    color: cyan;
 }
 
 /* div div ul li a {

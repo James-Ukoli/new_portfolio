@@ -1,4 +1,4 @@
-import sound from "../media/audio/baddie_TK10027761.mp3.mp3";
+import sound from "../media/audio/JUvoice.mp3";
 import playBtn from "../images/play1.avif";
 import pauseBtn from "../images/pause1.png";
 import { useState } from "react";
