@@ -24,19 +24,23 @@
   font-size: small;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 540px) {
   /* CSS rules for screens 480px or smaller */
   /* Add your styles here */
-
+  .white-robotic-text {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    margin: 80px;
+    font-size: large;
+  }
+  
   
 }
 
-/* #aboutme {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-} */
+
 .element1 {
   margin-bottom: 20px;
 }

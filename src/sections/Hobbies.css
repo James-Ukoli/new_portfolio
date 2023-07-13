@@ -1,4 +1,8 @@
 .paragraph {
-   
     margin: 30px;
+}
+
+#hobbies ul {
+    display: flex;
+    justify-content: space-around;
 }

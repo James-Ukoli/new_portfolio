@@ -1,8 +1,13 @@
 import React from "react";
 import { FaInstagram, FaLinkedin, FaMailBulk } from "react-icons/fa";
-import "./ContactMe.Css";
+import "./ContactMe.css";
 
 function ContactMe() {
+  const handleClick1 = (e) => {
+    e.preventDefault();
+    window.open("mailto:thejamesukoli@gmail.com");
+  };
+
   const handleClick2 = (e) => {
     e.preventDefault();
     window.open("https://www.linkedin.com/in/jamesukoli/", "_blank");
@@ -22,30 +27,22 @@ function ContactMe() {
     <>
       <div id="contactme">
         <h2 className="center blue-robotic-text">Contact Me</h2>
-        <div className="contactlinks ">
-          <ul className="white-robotic-text">
-            <li>
-              <a href="mailto:thejamesukoli@gmail.com">
-                <FaMailBulk style={iconStyle3} size={iconSize} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/jamesukoli/"
-                onClick={handleClick2}
-              >
-                <FaLinkedin style={iconStyle} size={iconSize} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/jamesukoli/"
-                onClick={handleClick3}
-              >
-                <FaInstagram style={iconStyle2} size={iconSize} />
-              </a>
-            </li>
-          </ul>
+        <div className="list">
+          <FaMailBulk
+            onClick={handleClick1}
+            style={iconStyle3}
+            size={iconSize}
+          />
+          <FaLinkedin
+            onClick={handleClick2}
+            style={iconStyle}
+            size={iconSize}
+          />
+          <FaInstagram
+            onClick={handleClick3}
+            style={iconStyle2}
+            size={iconSize}
+          />
         </div>
       </div>
     </>

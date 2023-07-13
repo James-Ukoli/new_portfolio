@@ -3,11 +3,10 @@
     justify-content: center;
 }
 
- div ul {
-    display: flex;
-    justify-content: space-around;
+ .list  {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-bottom: 30px;
 }
 
-/* div div ul li a {
-    size: 32px;
-  } */

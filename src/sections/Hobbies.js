@@ -1,8 +1,8 @@
 import React from "react";
-import { FaChess, FaRobot, FaYoutube } from "react-icons/fa";
+import { FaChess, FaRobot } from "react-icons/fa";
+import "./Hobbies.css";
 
-const iconSize = 36;
-const iconColor1 = { color: "red" };
+const iconSize = 46;
 const iconColor2 = { color: "gray" };
 const iconColor3 = { color: "white" };
 
@@ -16,18 +16,12 @@ function Hobbies() {
         projects (entry-level)
       </p>
       <div id="hobbies" className="list-container">
-        <ul className="no-bullets white-robotic-text">
+        <ul className="">
           <li>
             <FaChess style={iconColor3} size={iconSize} />
-            Chess
           </li>
           <li>
             <FaRobot style={iconColor2} size={iconSize} />
-            Robotics
-          </li>
-          <li>
-            <FaYoutube style={iconColor1} size={iconSize} />
-            YouTube
           </li>
         </ul>
       </div>
