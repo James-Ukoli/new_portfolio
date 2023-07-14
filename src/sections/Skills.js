@@ -1,28 +1,30 @@
 import React from "react";
-
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaPython,
-  FaJava,
-  FaReact,
-  FaNodeJs,
-  FaLeaf,
-  FaDatabase,
-} from "react-icons/fa";
+import iconBS from "../images/icons/icons8-bootstrap-48.png";
+import iconCSS from "../images/icons/icons8-css-48.png";
+import iconHTML from "../images/icons/icons8-html5-48.png";
+import iconJS from "../images/icons/icons8-javascript-48.png";
+import iconMDB from "../images/icons/icons8-mongodb-48.png";
+import iconMySQL from "../images/icons/icons8-mysql-48.png";
+import iconNode from "../images/icons/icons8-node-js-48.png";
+import iconPostgres from "../images/icons/icons8-postgresql-48.png";
+import iconPython from "../images/icons/icons8-python-48.png";
+import iconReact from "../images/icons/icons8-react-js-48.png";
 import "./Skills.css";
 
-const iconStyle1 = { color: "red" };
-const iconStyle2 = { color: "yellow" };
-const iconStyle3 = { color: "cyan" };
-const iconStyle4 = { color: "orange" };
-const iconStyle5 = { color: "lightgreen" };
-const iconStyle6 = { color: "limegreen" };
-const iconStyle7 = { color: "silver" };
-const iconStyle8 = { color: "yellow" };
-const iconSize = 40;
-
 function Skills() {
+  const icons = [
+    iconJS,
+    iconPython,
+    iconReact,
+    iconHTML,
+    iconCSS,
+    iconNode,
+    iconPostgres,
+    iconMySQL,
+    iconMDB,
+    iconBS,
+  ];
+
   return (
     <>
       <h2 className="center blue-robotic-text">Skills</h2>
@@ -31,23 +33,22 @@ function Skills() {
         <div className="skills-title">
           <h4 className="white-robotic-text">Languages</h4>
         </div>
-        <div className="box1 center2">
-          <FaJava style={iconStyle1} size={iconSize} />
-          <FaPython style={iconStyle2} size={iconSize} />
-          <FaReact style={iconStyle5} size={iconSize} />
-          <FaHtml5 style={iconStyle4} size={iconSize} />
-          <FaCss3Alt style={iconStyle3} size={iconSize} />
-          <FaNodeJs size={iconSize} style={iconStyle8} />
-          <FaDatabase size={iconSize} style={iconStyle7} />
-          <FaLeaf size={iconSize} style={iconStyle6} />
+        {/* <p className="white-robotic-text">
+          I currently specialize in Javascript,Python, and MERN Stack
+          Applications.
+        </p> */}
+        <div className="center2 margin">
+          {icons.map((icon) => (
+            <img key={icon[icon]} src={icon} alt={icon} />
+          ))}
         </div>
       </div>
 
       <h4 className="white-robotic-text center">Other Skills..</h4>
       <div className="other-skills white-robotic-text center box2">
-        <p>Adobe Creatives</p>
-        <p>Graphic Design</p>
-        <p>Social Media</p>
+        <p>Adobe Creatives &#x1F4BB;</p>
+        <p>Graphic Design &#x1F58C;</p>
+        <p>Social Media &#x1F4F7;</p>
       </div>
     </>
   );

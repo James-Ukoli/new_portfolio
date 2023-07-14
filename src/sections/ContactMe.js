@@ -27,6 +27,11 @@ function ContactMe() {
     <>
       <div id="contactme">
         <h2 className="center blue-robotic-text">Contact Me</h2>
+        <p className="white-robotic-text">
+          To get in contact with me for business inquiries, you can reach out to
+          me through EMAIL, LinkedIN, and/or instagram. Thanks for checking out
+          my page
+        </p>
         <div className="list">
           <FaMailBulk
             onClick={handleClick1}

@@ -11,19 +11,12 @@ function Hobbies() {
     <div className="">
       <h2 className="center blue-robotic-text">Hobbies</h2>
       <p className="paragraph white-robotic-text">
-        During my free time I love to play chess online and on the street,
-        basketball, boxing and work on robotics and electrical engineering
-        projects (entry-level)
+        During my free time I love to play chess online, basketball, boxing and
+        work on robotics and electrical engineering projects (entry-level)
       </p>
       <div id="hobbies" className="list-container">
-        <ul className="">
-          <li>
-            <FaChess style={iconColor3} size={iconSize} />
-          </li>
-          <li>
-            <FaRobot style={iconColor2} size={iconSize} />
-          </li>
-        </ul>
+        <FaChess style={iconColor3} size={iconSize} />
+        <FaRobot style={iconColor2} size={iconSize} />
       </div>
     </div>
   );
