@@ -15,8 +15,8 @@ function HomePage() {
           />
         </div>
 
-        <h6 className="center h6 ">Software Developer👨🏽‍💻</h6>
-        <h6 className="center h6">Adobe Creative Designer</h6>
+        <h5 className="center h6 ">Software Developer👨🏽‍💻</h5>
+        <h5 className="center h6">Adobe Creative Designer</h5>
       </div>
     </>
   );

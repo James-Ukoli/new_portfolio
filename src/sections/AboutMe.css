@@ -24,7 +24,7 @@
   font-size: small;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 640px) {
   /* CSS rules for screens 480px or smaller */
   /* Add your styles here */
   .white-robotic-text {
@@ -34,7 +34,7 @@
     text-transform: uppercase;
     text-shadow: 0 0 3px cyan;
     margin: 80px;
-    font-size: large;
+    font-size:large
   }
   
   

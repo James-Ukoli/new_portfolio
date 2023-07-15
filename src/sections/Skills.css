@@ -8,13 +8,14 @@
     margin: 30px;
   }
 
-  .white-robotic-text {
+  .white-robotic-text1 {
     font-family: "Roboto Mono", monospace;
     color: white;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-shadow: 0 0 3px cyan;
     list-style: none;
+    font-size: x-large
   }
 
   /* Skills Title */
@@ -79,7 +80,7 @@
   }
   
 
-@media (min-width: 700px) {
+@media (min-width: 640px) {
 img {
   width: 5%;
 }
