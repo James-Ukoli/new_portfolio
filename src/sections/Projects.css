@@ -1,8 +1,4 @@
-.paragraph {
-    margin: 30px;
-}
-
-#hobbies {
+.project-cards {
     display: flex;
     justify-content: space-evenly;
 }
