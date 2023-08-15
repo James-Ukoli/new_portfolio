@@ -1,6 +1,6 @@
 import sound from "../media/audio/JUvoice.mp3";
-import playBtn from "../images/play1.avif";
-import pauseBtn from "../images/pause1.png";
+import playBtn from "../images/imagesSet1/play1.avif";
+import pauseBtn from "../images/imagesSet1/pause1.png";
 import { useState } from "react";
 import "./PlayButton.css";
 import { useRef } from "react";

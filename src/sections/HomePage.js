@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../images/TCUMe1.jpg";
+import profilePic from "../images/imagesSet1/TCUMe1.jpg";
 import "./HomePage.css";
 
 function HomePage() {
