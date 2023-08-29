@@ -19,7 +19,18 @@
     text-transform: uppercase;
     text-shadow: 0 0 3px cyan;
     list-style: none;
-    font-size: x-large
+    font-size: medium
+}
+
+.aqua-text {
+    font-family: "Roboto Mono", monospace;
+    color: aqua;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    list-style: none;
+    font-size: medium;
+    padding: 10px
 }
 
 .card {
