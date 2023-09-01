@@ -12,6 +12,14 @@
     margin: 30px;
 }
 
+.description-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
 .white-robotic-text1 {
     font-family: "Roboto Mono", monospace;
     color: white;
@@ -37,6 +45,7 @@
     border-color: aqua;
     /* background-image: url("../images/imagesSet1/istockphoto-1387945043-170667a.webp"); */
     background-color: black;
+    margin: 20px;
 }
 
 .row {

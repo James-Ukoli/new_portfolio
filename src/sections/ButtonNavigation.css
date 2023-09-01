@@ -1,0 +1,20 @@
+.Button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .Robot-button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  
+  .Robot-button:hover {
+    background-color: purple;
+  }

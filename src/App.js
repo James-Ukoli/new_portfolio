@@ -8,6 +8,7 @@ import AboutMe from "../src/sections/AboutMe";
 import Contact from "../src/sections/ContactMe";
 import PlayButton from "./features/PlayButton";
 import Projects from "./sections/Projects";
+import ButtonNavigation from "./sections/ButtonNavigation";
 
 // 1) Play Button/Audio Commentary of Profile
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <PlayButton />
         <Navigation />
         <HomePage />
+        <ButtonNavigation />
         <AboutMe />
         <Projects />
         <Skills />
