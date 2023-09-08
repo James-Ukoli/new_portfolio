@@ -20,31 +20,31 @@ function ButtonNavigation() {
           onClick={() => scrollToSection(section1Ref)}
           className="Robot-button"
         >
-          About Me
+          About Me👋
         </button>
         <button
           onClick={() => scrollToSection(section2Ref)}
           className="Robot-button"
         >
-          Projects
+          Projects📑
         </button>
         <button
           onClick={() => scrollToSection(section3Ref)}
           className="Robot-button"
         >
-          Skills
+          Skills🖥️
         </button>
         <button
           onClick={() => scrollToSection(section4Ref)}
           className="Robot-button"
         >
-          Hobbies
+          Hobbies🎨
         </button>
         <button
           onClick={() => scrollToSection(section5Ref)}
           className="Robot-button"
         >
-          Contact Me
+          Contact Me✉️
         </button>
       </nav>
     </div>

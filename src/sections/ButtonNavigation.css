@@ -24,8 +24,8 @@
   .Button-container {
   display: flex;
    justify-content: space-around;
-   margin-right: 400px;
-   margin-left: 400px;
+   margin-right: 350px;
+   margin-left: 350px;
   }
 
   @media  (max-width: 640px) {
