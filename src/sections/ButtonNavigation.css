@@ -6,8 +6,9 @@
   }
   
   .Robot-button {
-    background-color: aqua;
-    color: white;
+    background-color: white;
+    color:black;
+    border-radius: 9px;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -16,5 +17,22 @@
   }
   
   .Robot-button:hover {
-    background-color: purple;
+    background-color: cyan;
   }
+
+  /* added 9/8/23 */
+  .Button-container {
+  display: flex;
+   justify-content: space-around;
+   margin-right: 400px;
+   margin-left: 400px;
+  }
+
+  @media  (max-width: 640px) {
+    .project-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
