@@ -63,7 +63,7 @@ function Projects() {
           <div className="project-tech-stack center1 white-robotic-text1">
             Stack:{" "}
             {techStack1.map((icon) => {
-              return <img src={icon} alt={icon} />;
+              return <img className="icon" src={icon} alt={icon} />;
             })}
           </div>
           <div className="description-box">
