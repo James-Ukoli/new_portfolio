@@ -23,16 +23,26 @@
   /* added 9/8/23 */
   .Button-container {
   display: flex;
-   justify-content: space-around;
-   margin-right: 350px;
-   margin-left: 350px;
+  justify-content: space-around;
+  margin-right: 350px;
+  margin-left: 350px;
+
   }
 
-  @media  (max-width: 640px) {
-    .project-cards {
+  @media  (max-width: 700px) {
+    /* .project-cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
+
+    .Button-container {
+      display: flex;
+      justify-content: space-evenly;
+    margin-right: 0px;
+    margin-left: 0px;
+      }
 }
+
+
 
