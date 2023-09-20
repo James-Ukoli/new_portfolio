@@ -19,6 +19,8 @@ const techStack3 = [reactIcon, cssIcon, nodeJSIcon, postgreSQL];
 const techStack4 = [reactIcon, bootstrapIcon, cssIcon];
 const techStack5 = [nodeJSIcon, postgreSQL];
 
+// Classes for scrolls 1)scroll-container 2) scroll-content 3) scroll-item
+
 function Projects() {
   /// SportsPop Backend Github Link
   const handleClick1 = (e) => {
@@ -52,11 +54,11 @@ function Projects() {
   };
 
   return (
-    <div id="projects">
+    <div id="projects" className="scroll-container">
       <h2 className="center blue-robotic-text center1">Projects</h2>
-      <div className="project-cards">
+      <div className="project-cards scroll-content">
         {/* Project 1 - FantasyPop */}
-        <div className="card">
+        <div className="card scroll-item">
           <h3 className="project-title center1" onClick={handleClick1}>
             Sports Pop
           </h3>
@@ -73,7 +75,7 @@ function Projects() {
           </div>
         </div>
         {/* Project 2 - Tic-Tac-Toe */}
-        <div className="card" onClick={handleClick2}>
+        <div className="card scroll-item" onClick={handleClick2}>
           <h3 className="project-title center1">Tik-Tac-Toe</h3>
           <div className="project-tech-stack center1 white-robotic-text1">
             Stack:{" "}
@@ -83,12 +85,12 @@ function Projects() {
           </div>
           <div className="description-box">
             <p className="project-description center1 aqua-text">
-              Play Tic-Tac-Toe VS a Computer/Friend! :)
+              Play VS a Computer! :)
             </p>
           </div>
         </div>
         {/* Project 3 - Olivia's RRS */}
-        <div className="card" onClick={handleClick3}>
+        <div className="card scroll-item" onClick={handleClick3}>
           <h3 className="project-title center1"> Olivia's RRS</h3>
 
           {/* Tech Stack: React, HTML/CSS, Node.js, PostgresSQL */}
@@ -108,8 +110,8 @@ function Projects() {
       <br></br>
       <br></br>
       <div className="project-cards">
-        {/* Project 1 - FantasyPop */}
-        <div className="card" onClick={handleClick4}>
+        {/* Project 4 - Flashcard */}
+        <div className="card scroll-item" onClick={handleClick4}>
           <h3 className="project-title center1">Flashcard App</h3>
 
           <div className="project-tech-stack center1 white-robotic-text1">
@@ -119,7 +121,7 @@ function Projects() {
             })}
           </div>
           <div className="description-box">
-            <p className="project-description center1 aqua-text">
+            <p className="project-description center1 aqua-text scroll-item">
               Sports Social Media App Clone
             </p>
           </div>
