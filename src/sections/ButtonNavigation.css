@@ -1,8 +1,10 @@
 .Button-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     gap: 10px;
-    margin-top: 20px;
+    margin-right: 350px;
+    margin-left: 350px;
   }
   
   .Robot-button {
@@ -20,27 +22,15 @@
     background-color: cyan;
   }
 
-  /* added 9/8/23 */
-  .Button-container {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 350px;
-  margin-left: 350px;
+  
 
-  }
+  @media  (max-width: 640px) {
 
-  @media  (max-width: 700px) {
-    /* .project-cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
 
     .Button-container {
       display: flex;
-      justify-content: space-evenly;
-    margin-right: 0px;
-    margin-left: 0px;
+      justify-content: center;
+   
       }
 }
 
