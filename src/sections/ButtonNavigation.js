@@ -15,37 +15,39 @@ function ButtonNavigation() {
   };
   return (
     <div>
-      <nav className="Button-container">
-        <button
-          onClick={() => scrollToSection(section1Ref)}
-          className="Robot-button"
-        >
-          About Me👋
-        </button>
-        <button
-          onClick={() => scrollToSection(section2Ref)}
-          className="Robot-button"
-        >
-          Projects📑
-        </button>
-        <button
-          onClick={() => scrollToSection(section3Ref)}
-          className="Robot-button"
-        >
-          Skills🖥️
-        </button>
-        <button
-          onClick={() => scrollToSection(section4Ref)}
-          className="Robot-button"
-        >
-          Hobbies🎨
-        </button>
-        <button
-          onClick={() => scrollToSection(section5Ref)}
-          className="Robot-button"
-        >
-          Contact Me✉️
-        </button>
+      <nav className="">
+        <div className="scrollable-div Button-container">
+          <button
+            onClick={() => scrollToSection(section1Ref)}
+            className="Robot-button"
+          >
+            About Me👋
+          </button>
+          <button
+            onClick={() => scrollToSection(section2Ref)}
+            className="Robot-button"
+          >
+            Projects📑
+          </button>
+          <button
+            onClick={() => scrollToSection(section3Ref)}
+            className="Robot-button"
+          >
+            Skills🖥️
+          </button>
+          <button
+            onClick={() => scrollToSection(section4Ref)}
+            className="Robot-button"
+          >
+            Hobbies🎨
+          </button>
+          <button
+            onClick={() => scrollToSection(section5Ref)}
+            className="Robot-button"
+          >
+            Contact Me✉️
+          </button>
+        </div>
       </nav>
     </div>
   );

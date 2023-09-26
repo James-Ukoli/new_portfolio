@@ -25,13 +25,22 @@
   
 
   @media  (max-width: 640px) {
-
-
     .Button-container {
       display: flex;
-      justify-content: center;
-   
-      }
+      flex-direction: row;
+      gap: 10px;
+      margin-right: 0px;
+      margin-left: 0px;
+  
+    }
+
+    .scrollable-div {
+      overflow-x: auto; 
+      white-space: nowrap; 
+      width: 100%; 
+    }
+
+
 }
 
 
