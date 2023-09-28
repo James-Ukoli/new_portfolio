@@ -35,9 +35,11 @@
     }
 
     .scrollable-div {
-      overflow-x: auto; 
+      overflow-x:scroll;
+      display: flex;
+      overflow-y: auto;
       white-space: nowrap; 
-      width: 100%; 
+      
     }
 
 
