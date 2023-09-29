@@ -9,7 +9,6 @@ function ButtonNavigation() {
       <a href="#projects" className="Robot-button">
         Projects📑
       </a>
-
       <a href="#skills" className="Robot-button">
         Skills🖥️
       </a>

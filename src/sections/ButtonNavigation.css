@@ -29,19 +29,32 @@
   @media  (max-width: 640px) {
     .Button-container {
       display: flex;
+
       flex-direction: row;
-      gap: 10px;
+      gap: 0px;
       margin-right: 0px;
       margin-left: 0px;
   
     }
 
+    .Robot-button {
+      background-color: white;
+      color:black;
+      border-radius: 8px;
+      border: none;
+      padding: 7px 14px;
+      margin-left: 4px;
+      margin-right: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.1s;
+    }
+
     .scrollable-div {
-      overflow-x:scroll;
-      display: flex;
+      overflow-x: auto;
       overflow-y: auto;
       white-space: nowrap; 
-      
+  
     }
 
 
