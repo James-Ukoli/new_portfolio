@@ -1,4 +1,4 @@
-import sound from "../media/audio/JUvoice.mp3";
+import sound1 from "../media/audio/Sounds2.mp3";
 import playBtn from "../images/imagesSet1/play1.avif";
 import pauseBtn from "../images/imagesSet1/pause1.png";
 import { useState } from "react";
@@ -25,7 +25,7 @@ const PlayButton = ({ src }) => {
 
   return (
     <div>
-      <audio ref={audioRef} src={sound} />
+      <audio ref={audioRef} src={sound1} />
       <img
         id="play-button"
         onClick={togglePlayback}

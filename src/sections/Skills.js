@@ -27,7 +27,9 @@ function Skills() {
 
   return (
     <>
-      <h2 className="center blue-robotic-text">Skills</h2>
+      <h2 id="skills" className="center blue-robotic-text">
+        Skills
+      </h2>
 
       <div className="languages">
         <div className="skills-title">

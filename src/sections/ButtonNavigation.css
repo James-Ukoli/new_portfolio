@@ -22,7 +22,9 @@
     background-color: cyan;
   }
 
-  
+  a {
+    text-decoration: none;
+  }
 
   @media  (max-width: 640px) {
     .Button-container {
