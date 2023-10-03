@@ -29,7 +29,8 @@
   @media  (max-width: 640px) {
     .Button-container {
       display: flex;
-
+      overflow-x: auto;
+      max-width: 100%;
       flex-direction: row;
       gap: 0px;
       margin-right: 0px;
@@ -54,6 +55,26 @@
       overflow-x: auto;
       overflow-y: auto;
       white-space: nowrap; 
+  
+    }
+
+    @media (max-width: 480px) {
+      .item {
+        display: inline-block;
+      
+      }
+
+      .Button-container {
+        display: flex;
+        justify-content: center;
+        overflow-x: visible;
+        max-width: 100%;
+        flex-direction: row;
+        gap: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    
+      }
   
     }
 
