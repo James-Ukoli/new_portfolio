@@ -1,5 +1,6 @@
 .project-cards {
     display: flex;
+    
     justify-content: space-evenly;
 }
 
@@ -85,7 +86,7 @@
     
     .scroll-item {
         padding: 10px;
-        border-bottom: 1px solid #ccc;
+        /* border-bottom: 1px solid #ccc; */
     }
 /* 
     .scroll-container {

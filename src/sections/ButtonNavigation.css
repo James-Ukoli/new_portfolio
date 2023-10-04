@@ -51,12 +51,7 @@
       transition: background-color 0.1s;
     }
 
-    .scrollable-div {
-      overflow-x: auto;
-      overflow-y: auto;
-      white-space: nowrap; 
-  
-    }
+
 
     @media (max-width: 480px) {
       .item {
@@ -73,6 +68,9 @@
         gap: 0px;
         margin-right: 0px;
         margin-left: 0px;
+        overflow-x: auto;
+        overflow-y: auto;
+        white-space: nowrap; 
     
       }
   

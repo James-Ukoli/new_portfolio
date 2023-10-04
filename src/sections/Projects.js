@@ -57,7 +57,7 @@ function Projects() {
     <div id="projects" className="scroll-container">
       <h2 className="center blue-robotic-text center1">Projects</h2>
       <div className="project-cards scroll-content">
-        {/* Project 1 - FantasyPop */}
+        {/* Project 1 - SportsPop */}
         <div className="card scroll-item">
           <h3 className="project-title center1" onClick={handleClick1}>
             Sports Pop
@@ -106,10 +106,6 @@ function Projects() {
             </p>
           </div>
         </div>
-      </div>
-      <br></br>
-      <br></br>
-      <div className="project-cards">
         {/* Project 4 - Flashcard */}
         <div className="card scroll-item" onClick={handleClick4}>
           <h3 className="project-title center1">Flashcard App</h3>
@@ -122,11 +118,11 @@ function Projects() {
           </div>
           <div className="description-box">
             <p className="project-description center1 aqua-text scroll-item">
-              Sports Social Media App Clone
+              Flashcards Application for Software Prodigies!
             </p>
           </div>
         </div>
-        {/* Project 2 - Tic-Tac-Toe */}
+        {/* Project 5 - We Love Movies */}
         <div className="card" onClick={handleClick5}>
           <h3 className="project-title center1 ">We Love Movies</h3>
           <div className="project-tech-stack center1 white-robotic-text1">
