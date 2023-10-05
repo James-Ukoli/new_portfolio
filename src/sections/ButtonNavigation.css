@@ -9,6 +9,7 @@
   
   .Robot-button {
     background-color: white;
+   
     color:black;
     border-radius: 9px;
     border: none;
@@ -20,6 +21,8 @@
   
   .Robot-button:hover {
     background-color: cyan;
+    color: white;
+   
   }
 
   a {
