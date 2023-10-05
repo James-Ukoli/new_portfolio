@@ -16,13 +16,13 @@ function App() {
     <>
       <div className="content">
         <PlayButton />
-        <Navigation />
         <HomePage />
         <ButtonNavigation />
         <AboutMe />
         <Projects />
         <Skills />
         <Contact />
+        <Navigation />
       </div>
     </>
   );
