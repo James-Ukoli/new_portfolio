@@ -26,6 +26,14 @@
     text-decoration: none;
   }
 
+  .scrollable-div {
+    display: flex;              /* Display children in a row */
+    overflow-x: auto;           /* Enable horizontal scrolling */
+    white-space: nowrap;        /* Prevent line breaks */
+    padding: 10px;              /* Add some padding for spacing */
+    max-width: 100%;            /* Ensure the container doesn't overflow the screen */
+  }
+
   @media  (max-width: 640px) {
     .Button-container {
       display: flex;
@@ -54,16 +62,15 @@
 
 
     @media (max-width: 480px) {
-      .item {
-        display: inline-block;
-      
-      }
+
+
+     
 
       .Button-container {
         display: flex;
         justify-content: center;
         overflow-x: visible;
-        max-width: 100%;
+        width: 300%;
         flex-direction: row;
         gap: 0px;
         margin-right: 0px;
