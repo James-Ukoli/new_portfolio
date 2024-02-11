@@ -1,47 +1,35 @@
 import React from "react";
 import "./Hobbies.css";
-
-const chessEmoji = "\u2654";
-// const roboticsEmoji = "\u1F94";
-// const boxingEmoji = "\u1F916";
+// import chessImage from "../images/imagesSet1/chessMe.png"
 
 function Hobbies() {
+  const handleClick1 = (e) => {
+    e.preventDefault();
+    window.open("https://www.chess.com/member/james-ukoli", "_blank");
+  };
+
+  const handleClick2 = (e) => {
+    e.preventDefault();
+    window.open("https://www.instagram.com/cyberGlobers/", "_blank");
+  };
+
   return (
-    <>
-      <div id="hobbies">
-        <h2 className="center blue-robotic-text element1">Hobbies</h2>
-        <div className="hobby-card white-robotic-text">
-          <div className="space-between">
-            <div>Chess{chessEmoji} </div>
-            <div className="row">
-              <div>Level:</div>
-              <div>2102</div>
-            </div>
-          </div>
-          {/* <img src={}/> */}
+    <div id="hobbies">
+      <h1 className="center blue-robotic-text element1">Hobbies</h1>
+      <div className="classDub white-robotic-text">
+        <div className="hobbiesCard">
+          <h4 className="hobbiesTitle" onClick={handleClick1}>
+            Chess
+          </h4>
         </div>
-        <div className="hobby-card white-robotic-text">
-          <div className="space-between">
-            <div>Robotics</div>
-            <div className="row">
-              <div>Level:</div>
-              <div>Entry</div>
-            </div>
-          </div>
-          {/* <img src={}/> */}
+        <div className="hobbiesCard">
+          <h4 onClick={handleClick2}>cyberGlobers</h4>
         </div>
-        <div className="hobby-card white-robotic-text">
-          <div className="space-between">
-            <div>Boxing</div>
-            <div className="row">
-              <div>Level:</div>
-              <div>Amateur</div>
-            </div>
-          </div>
-          {/* <img src={}/> */}
-        </div>
+        {/* <div className="hobbiesCard">
+          <h4>Others</h4>
+        </div> */}
       </div>
-    </>
+    </div>
   );
 }
 

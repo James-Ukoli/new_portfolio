@@ -24,24 +24,7 @@ a {
  
 }
 
-.scrollable-div {
-  display: flex;       
-  justify-content: center; 
-     
-  overflow-x: auto;          
-  white-space: nowrap;      
-  padding: 10px;              
-  max-width: 100%;            
 
-  scrollbar-width: thin;
-  scrollbar-color: #ccc #fff;
-
-  /* Thin scrollbar thumb */
-  &::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-}
 
 
 /* Mobile View */

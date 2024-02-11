@@ -19,14 +19,42 @@
     padding: 10px
 }
 
-.space-between {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+h4::hover {
+color: purple;
 }
 
-.row {
+.hobbiesCard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue-robotic-text::hover {
+    color:purple
+}
+
+.classDub {
+   
+        display: flex;    
+        justify-content: space-evenly; 
+        
+           
+        overflow-x: auto;          
+        white-space: nowrap;      
+        padding: 10px;              
+        max-width: 100%;            
+      
+        scrollbar-width: thin;
+        scrollbar-color: #ccc #fff;
+      
+        /* Thin scrollbar thumb */
+        &::-webkit-scrollbar {
+          width: 6px;
+        }
+        
+}
+
+.imageSizeL {
+    width: 200px;
+    border-radius: 75%;
 }
