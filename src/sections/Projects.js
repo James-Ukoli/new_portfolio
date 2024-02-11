@@ -56,7 +56,7 @@ function Projects() {
   return (
     <div id="projects" className="scroll-container">
       <h2 className="center blue-robotic-text center1">Projects</h2>
-      <div className="project-cards scroll-content">
+      <div className="project-cards scroll-content overflow">
         {/* Project 1 - SportsPop */}
         <div className="card scroll-item">
           <h3 className="project-title center1" onClick={handleClick1}>

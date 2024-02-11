@@ -9,7 +9,7 @@ import Contact from "../src/sections/ContactMe";
 import PlayButton from "./features/PlayButton";
 import Projects from "./sections/Projects";
 import ButtonNavigation from "./sections/ButtonNavigation";
-import HobbiesSection from "./sections/HobbiesSection";
+import Hobbies from "./sections/Hobbies";
 
 // 1) Play Button/Audio Commentary of Profile
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <AboutMe />
         <Projects />
         <Skills />
-        <HobbiesSection />
+        <Hobbies />
         <Contact />
         <Navigation />
       </div>

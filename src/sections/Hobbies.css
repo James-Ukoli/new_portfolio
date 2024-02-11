@@ -1,0 +1,32 @@
+.white-robotic-text {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    list-style: none;
+    font-size: medium
+}
+
+.aqua-text {
+    font-family: "Roboto Mono", monospace;
+    color: aqua;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    list-style: none;
+    font-size: medium;
+    padding: 10px
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

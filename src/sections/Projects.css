@@ -31,6 +31,10 @@
     font-size: medium
 }
 
+.overflow {
+    overflow-x: auto;
+}
+
 .aqua-text {
     font-family: "Roboto Mono", monospace;
     color: aqua;

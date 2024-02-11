@@ -1,54 +1,51 @@
-.Button-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
-    margin-right: 350px;
-    margin-left: 350px;
+/* Style Effects */
+.Robot-button {
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+  border: none;
+  padding: 7px 14px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* Animation Effects */
+.Robot-button:hover {
+  background-color: cyan;
+  color: white;
+ 
+}
+
+.scrollable-div {
+  display: flex;       
+  justify-content: center; 
+     
+  overflow-x: auto;          
+  white-space: nowrap;      
+  padding: 10px;              
+  max-width: 100%;            
+
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #fff;
+
+  /* Thin scrollbar thumb */
+  &::-webkit-scrollbar {
+    width: 6px;
   }
   
-  .Robot-button {
-    background-color: white;
-   
-    color:black;
-    border-radius: 9px;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.1s;
-  }
-  
-  .Robot-button:hover {
-    background-color: cyan;
-    color: white;
-   
-  }
+}
 
-  a {
-    text-decoration: none;
-  }
 
-  .scrollable-div {
-    display: flex;              /* Display children in a row */
-    overflow-x: auto;           /* Enable horizontal scrolling */
-    white-space: nowrap;        /* Prevent line breaks */
-    padding: 10px;              /* Add some padding for spacing */
-    max-width: 100%;            /* Ensure the container doesn't overflow the screen */
-  }
-
-  @media  (max-width: 640px) {
-    .Button-container {
-      display: flex;
-      overflow-x: auto;
-      max-width: 100%;
-      flex-direction: row;
-      gap: 0px;
-      margin-right: 0px;
-      margin-left: 0px;
-  
-    }
-
+/* Mobile View */
+@media (max-width: 480px) {
     .Robot-button {
       background-color: white;
       color:black;
@@ -58,39 +55,9 @@
       margin-left: 4px;
       margin-right: 4px;
       font-size: 16px;
-      cursor: pointer;
+      cursor:crosshair;
       transition: background-color 0.1s;
-    }
-
-
-
-    @media (max-width: 480px) {
-
-
-
-
-
-
-
-      .Button-container {
-        display: flex;
-        justify-content: center;
-        overflow-x: visible;
-        width: 300%;
-        flex-direction: row;
-        gap: 0px;
-        margin-right: 0px;
-        margin-left: 0px;
-        overflow-x: auto;
-        overflow-y: auto;
-        white-space: nowrap; 
     
-      }
-  
     }
 
-
-}
-
-
-
+  }
