@@ -16,18 +16,11 @@ function Hobbies() {
   return (
     <div id="hobbies">
       <h1 className="center blue-robotic-text element1">Hobbies</h1>
-      <div className="classDub white-robotic-text">
-        <div className="hobbiesCard">
-          <h4 className="hobbiesTitle" onClick={handleClick1}>
-            Chess
-          </h4>
-        </div>
-        <div className="hobbiesCard">
-          <h4 onClick={handleClick2}>cyberGlobers</h4>
-        </div>
-        {/* <div className="hobbiesCard">
-          <h4>Others</h4>
-        </div> */}
+      <div className="white-robotic-text">
+        <h4 className="hobbiesTitle" onClick={handleClick1}>
+          Chess
+        </h4>
+        <h4 onClick={handleClick2}>CyberGlobers</h4>
       </div>
     </div>
   );

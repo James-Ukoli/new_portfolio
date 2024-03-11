@@ -24,12 +24,22 @@ a {
  
 }
 
+.scrollable-div {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  align-items: center;
+  white-space: nowrap;
+  width: 100%;
+
+}
+
 
 
 
 /* Mobile View */
 @media (max-width: 480px) {
-    .Robot-button {
+    /* .Robot-button {
       background-color: white;
       color:black;
       border-radius: 8px;
@@ -41,6 +51,6 @@ a {
       cursor:crosshair;
       transition: background-color 0.1s;
     
-    }
+    } */
 
   }

@@ -1,6 +1,5 @@
 .project-cards {
     display: flex;
-    
     justify-content: space-evenly;
 }
 
@@ -31,9 +30,7 @@
     font-size: medium
 }
 
-.overflow {
-    overflow-x: auto;
-}
+
 
 .aqua-text {
     font-family: "Roboto Mono", monospace;
@@ -74,32 +71,4 @@
     }
 
 
-
-    .icon {
-        size: 1px;
-    }
-
-    .project-tech-stack img {
-        size:0ch;
-    }
-
-    .scroll-content {
-        /* Ensure that the content width doesn't exceed the container width */
-        max-width: 100%;
-    }
-    
-    .scroll-item {
-        padding: 10px;
-        /* border-bottom: 1px solid #ccc; */
-    }
-/* 
-    .scroll-container {
-        width: 100%;
-        max-width: 300px; 
-        margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        overflow-y: auto; 
-        height: 300px; 
-    } */
 }
