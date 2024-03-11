@@ -19,6 +19,34 @@
     padding: 10px
 }
 
+/* SPAN EFFECTS */
+.Chess-Text{
+    color: aqua;
+    cursor: pointer;
+}
+
+.YouTube-Text {
+    color: red;
+    border-color: black;
+    border-radius: 2px;
+}
+
+.CyberGlobers-Text {
+    color: aqua;
+    cursor: pointer;
+}
+
+.CyberGlobers-Text::hover {
+color: greenyellow;
+}
+
+.Chess-Text::hover {
+color: greenyellow;
+
+}
+/* END OF SPAN EFFFECTS */
+
+
 h4::hover {
 color: purple;
 }
