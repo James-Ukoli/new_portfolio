@@ -27,30 +27,25 @@ a {
 .scrollable-div {
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
   align-items: center;
-  white-space: nowrap;
-  width: 100%;
-
+ 
 }
 
 
 
 
 /* Mobile View */
-@media (max-width: 480px) {
-    /* .Robot-button {
-      background-color: white;
-      color:black;
-      border-radius: 8px;
-      border: none;
-      padding: 7px 14px;
-      margin-left: 4px;
-      margin-right: 4px;
-      font-size: 16px;
-      cursor:crosshair;
-      transition: background-color 0.1s;
-    
-    } */
+@media (max-width: 490px) {
+  .scrollable-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    size: 50%;
+  }
+
+  .Robot-button {
+    font-size: 12px;
+  }
 
   }
