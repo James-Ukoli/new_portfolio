@@ -36,8 +36,8 @@ function Hobbies() {
         <span className="CyberGlobers-Text" onClick={handleClick4}>
           CyberGlobers
         </span>
-        &#x1F310;, where I keep up with software, tech, and robotics news around
-        the globe. So if you are here you might as well subscribeQ!
+        &#x1F310;, where I keep up with world news in software, tech, and
+        robotics. Since you are here, you might as well subscribe &#x1F604;!
       </div>
     </div>
   );
