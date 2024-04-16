@@ -1,6 +1,7 @@
 import React from "react";
-import profilePic from "../images/imagesSet1/TCUMe1.jpg";
+// import profilePic from "../images/imagesSet1/TCUMe1.jpg";
 import "./HomePage.css";
+import profilepic1 from "../images/imagesSet1/profilepic2.jpeg";
 
 function HomePage() {
   return (
@@ -9,8 +10,8 @@ function HomePage() {
         <h1 className="center aqua">The James Ukoli</h1>
         <div className="row picAndQuote image-container">
           <img
-            src={profilePic}
-            alt={profilePic}
+            src={profilepic1}
+            alt={profilepic1}
             className="circle-image profilepic"
           />
         </div>

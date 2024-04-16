@@ -1,9 +1,11 @@
 .circle-image {
  
-  border-radius: 100%;
-  width: 275px;
-
-
+  border-radius: 45%;
+  width: 200px;
+  border: 20px;
+  border-color: aqua;
+  padding: 10px;
+  
 }
 
 .row {
