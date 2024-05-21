@@ -47,6 +47,7 @@ function Skills() {
       </div>
 
       <h4 className="white-robotic-text1 center">Other Skills..</h4>
+
       <div className="other-skills white-robotic-text center box2">
         <p>Adobe Creatives &#x1F4BB;</p>
         <p>Graphic Design &#x1F58C;</p>

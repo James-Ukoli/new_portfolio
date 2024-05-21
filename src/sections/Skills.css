@@ -24,6 +24,11 @@
     justify-content: center;
   }
 
+  .skillsContainer {
+    display: flex;
+    justify-content: center;
+  }
+
 
 
   
@@ -49,6 +54,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 20px;
+
   }
 
   /* POSITIONING (CHECK)  */
@@ -87,6 +93,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 10px;
+
 }
 
 }
