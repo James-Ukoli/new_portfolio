@@ -10,3 +10,24 @@ justify-content: space-evenly;
 margin-bottom: 30px;
 }
 
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraph {
+    font-size: medium;
+    width: 70%;
+  }
+
+  .paragraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraph {
+    font-size: medium;
+    width: 70%;
+    margin-top: -10px;
+  }
+

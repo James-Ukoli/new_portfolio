@@ -26,18 +26,20 @@ function Hobbies() {
   return (
     <div id="hobbies">
       <h1 className="center blue-robotic-text element1">Hobbies</h1>
-      <div className="white-robotic-text">
-        During my leisure time, I love to play{" "}
-        <span className="Chess-Text" onClick={handleClick3}>
-          Chess
-        </span>
-        &#x265F;. I also got a <span className="YouTube-Text">YouTube</span>{" "}
-        Channel called the{" "}
-        <span className="CyberGlobers-Text" onClick={handleClick4}>
-          CyberGlobers
-        </span>
-        &#x1F310;, where I keep up with world news in software, tech, and
-        robotics. Since you are here, you might as well subscribe &#x1F604;!
+      <div className="paragraphContainer">
+        <div className="white-robotic-text paragraph">
+          During my leisure time, I love to play{" "}
+          <span className="Chess-Text" onClick={handleClick3}>
+            Chess
+          </span>
+          &#x265F;. I also got a <span className="YouTube-Text">YouTube</span>{" "}
+          Channel called the{" "}
+          <span className="CyberGlobers-Text" onClick={handleClick4}>
+            CyberGlobers
+          </span>
+          &#x1F310;, where I keep up with world news in software, tech, and
+          robotics. Since you are here, you might as well subscribe &#x1F604;!
+        </div>
       </div>
     </div>
   );

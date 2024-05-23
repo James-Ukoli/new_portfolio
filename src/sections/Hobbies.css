@@ -8,6 +8,17 @@
     font-size: medium
 }
 
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraph {
+    font-size: medium;
+    width: 70%;
+   
+  }
+
 .aqua-text {
     font-family: "Roboto Mono", monospace;
     color: aqua;
