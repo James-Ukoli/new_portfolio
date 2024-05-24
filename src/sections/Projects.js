@@ -12,8 +12,9 @@ import nodeJSIcon from "../images/icons/icons8-node-js-48.png";
 import androidIcon from "../images/icons/icons8-android-os-48.png";
 import iosIcon from "../images/icons/icons8-ios-48.png";
 import bootstrapIcon from "../images/icons/icons8-bootstrap-48.png";
+import typeScript from "../images/icons/typescript.png";
 
-const techStack1 = [reactIcon, androidIcon, iosIcon, javaIcon, mySQL];
+const techStack1 = [reactIcon, androidIcon, iosIcon, typeScript];
 const techStack2 = [jsIcon, htmlIcon, cssIcon];
 const techStack3 = [reactIcon, cssIcon, nodeJSIcon, postgreSQL];
 const techStack4 = [reactIcon, bootstrapIcon, cssIcon];
@@ -25,7 +26,7 @@ function Projects() {
   /// SportsPop Backend Github Link
   const handleClick1 = (e) => {
     e.preventDefault();
-    window.open("https://github.com/James-Ukoli/FantasyPop_backend");
+    window.open("https://github.com/James-Ukoli/ELearningApp");
   };
 
   // Tic-Tac-Toe Link
@@ -60,7 +61,7 @@ function Projects() {
         {/* Project 1 - SportsPop */}
         <div className="card">
           <h3 className="project-title center1" onClick={handleClick1}>
-            Sports Pop
+            E-Learning App
           </h3>
           <div className="project-tech-stack center1 white-robotic-text1">
             Stack:{" "}
@@ -70,7 +71,7 @@ function Projects() {
           </div>
           <div className="description-box">
             <p className="project-description center1 aqua-text">
-              Sports Social Media App Clone
+              E-Course App Clone
             </p>
           </div>
         </div>
