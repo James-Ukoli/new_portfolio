@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-blend-mode:darken;
   background-image: url('./images/imagesSet1/robot20241.jpeg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size:auto; 
+  /* background-repeat: no-repeat; */
+  /* background-position: center center;
+  background-attachment: fixed; */
+  /* background-size:auto;  */
   color:azure;
   
 }
