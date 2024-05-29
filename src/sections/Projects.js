@@ -2,17 +2,17 @@ import React from "react";
 import "./Projects.css";
 import reactIcon from "../images/icons/icons8-react-js-48.png";
 import jsIcon from "../images/icons/icons8-javascript-48.png";
-import javaIcon from "../images/icons/icons8-java-48.png";
-import mySQL from "../images/icons/icons8-mysql-48.png";
 import htmlIcon from "../images/icons/icons8-html5-48.png";
 import cssIcon from "../images/icons/icons8-css-48.png";
 import postgreSQL from "../images/icons/icons8-postgresql-48.png";
 import nodeJSIcon from "../images/icons/icons8-node-js-48.png";
-// import springIcon from "../images/icons/icons8-spring-boot-48.png";
 import androidIcon from "../images/icons/icons8-android-os-48.png";
 import iosIcon from "../images/icons/icons8-ios-48.png";
 import bootstrapIcon from "../images/icons/icons8-bootstrap-48.png";
 import typeScript from "../images/icons/typescript.png";
+import javaIcon from "../images/icons/icons8-java-48.png";
+import mySQL from "../images/icons/icons8-mysql-48.png";
+// import springIcon from "../images/icons/icons8-spring-boot-48.png";
 
 const techStack1 = [reactIcon, androidIcon, iosIcon, typeScript];
 const techStack2 = [jsIcon, htmlIcon, cssIcon];
@@ -20,7 +20,7 @@ const techStack3 = [reactIcon, cssIcon, nodeJSIcon, postgreSQL];
 const techStack4 = [reactIcon, bootstrapIcon, cssIcon];
 const techStack5 = [nodeJSIcon, postgreSQL];
 
-// Classes for scrolls 1)scroll-container 2) scroll-content 3) scroll-item
+// Updated on 5/24/24
 
 function Projects() {
   /// SportsPop Backend Github Link
