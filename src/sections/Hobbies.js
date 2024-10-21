@@ -5,7 +5,7 @@ import "./Hobbies.css";
 function Hobbies() {
   const handleClick3 = (e) => {
     e.preventDefault();
-    window.open("https://www.chess.com/member/james-ukoli", "_blank");
+    window.open("https://www.chess.com/member/thejamesukoli", "_blank");
   };
 
   const handleClick4 = (e) => {
