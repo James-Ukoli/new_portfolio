@@ -54,7 +54,7 @@ function Projects() {
 
   return (
     <div id="projects" className="scroll-container">
-      <h2 className="center blue-robotic-text center1">Projects</h2>
+      <h2 className="center blue-robotic-text center1"> New Projects📱</h2>
       <div className="project-cards">
         {/* Project 1 - SportsPop */}
         <div className="card" onClick={handleClick1}>

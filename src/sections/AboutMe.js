@@ -10,7 +10,7 @@ function AboutMe() {
           <div className="white-robotic-text paragraph">
             Hello there!👋🏿 I'm James Ukoli! 👨🏽‍💻 I am an upcoming mobile developer
             that mainly works on the front end, as it showcases my creative and
-            stylistic side🎨. I am currently doing my MBA in UT Tyler online 💼,
+            stylistic side🎨. I am currently doing my MBA at UT Tyler online 💼,
             and during my freetime, I like to explore and research on new tech
             and create mobile apps📱. Scroll down for more things about me and
             my work.😊
