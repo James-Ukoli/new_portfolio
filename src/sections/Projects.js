@@ -14,14 +14,7 @@ import mySQL from "../images/icons/icons8-mysql-48.png";
 // import javaIcon from "../images/icons/icons8-java-48.png";
 // import springIcon from "../images/icons/icons8-spring-boot-48.png";
 
-const techStack1 = [
-  reactIcon,
-  androidIcon,
-  iosIcon,
-  typeScript,
-  nodeJSIcon,
-  mySQL,
-];
+const techStack1 = [androidIcon, iosIcon, nodeJSIcon, mySQL];
 const techStack2 = [jsIcon, htmlIcon, cssIcon];
 const techStack3 = [reactIcon, cssIcon];
 // const techStack4 = [reactIcon, bootstrapIcon, cssIcon];
