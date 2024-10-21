@@ -3,16 +3,6 @@ import "./Hobbies.css";
 // import chessImage from "../images/imagesSet1/chessMe.png"
 
 function Hobbies() {
-  // const handleClick1 = (e) => {
-  //   e.preventDefault();
-  //   window.open("https://www.chess.com/member/james-ukoli", "_blank");
-  // };
-
-  // const handleClick2 = (e) => {
-  //   e.preventDefault();
-  //   window.open("https://www.instagram.com/cyberGlobers/", "_blank");
-  // };
-
   const handleClick3 = (e) => {
     e.preventDefault();
     window.open("https://www.chess.com/member/james-ukoli", "_blank");

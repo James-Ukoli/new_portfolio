@@ -21,6 +21,10 @@
 
 }
 
+
+
+
+
 .white-robotic-text1 {
     font-family: "Roboto Mono", monospace;
     color: white;
@@ -41,7 +45,28 @@
     text-shadow: 0 0 3px cyan;
     list-style: none;
     font-size: medium;
-    padding: 10px
+   
+}
+
+.aquamarine-text {
+    font-family: "Roboto Mono", monospace;
+    color: lime;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px cyan;
+    list-style: none;
+    font-size: medium;
+}
+
+.red-text {
+    font-family: "Roboto Mono", monospace;
+    color: red;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px red;
+    list-style: none;
+    font-size: medium;
+   
 }
 
 .card {
@@ -62,6 +87,17 @@
     justify-content: center;
     align-items: center;
 }
+
+.underdevelopment {
+    color: red;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0px
+}
+
 /* MOBILE/TABLET VIEW */
 @media  (max-width: 640px) {
     .project-cards {
