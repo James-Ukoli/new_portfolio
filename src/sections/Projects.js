@@ -70,8 +70,8 @@ function Projects() {
               <p className="project-description center1 aqua-text">
                 Fun Card Game App for All Students!
               </p>
-              <p className="project-description center1 red-text">
-                UNDER DEVELOPMENT
+              <p className="project-description center1 aquamarine-text">
+                DEPLOYED!
               </p>
             </div>
           </div>
