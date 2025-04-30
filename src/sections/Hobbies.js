@@ -8,6 +8,7 @@ function Hobbies() {
     window.open("https://www.chess.com/member/thejamesukoli", "_blank");
   };
 
+  /// here is a comment just for github desktop
   const handleClick4 = (e) => {
     e.preventDefault();
     window.open("https://www.youtube.com/@CyberGlobers", "_blank");
